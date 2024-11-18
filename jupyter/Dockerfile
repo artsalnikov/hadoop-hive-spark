@@ -54,6 +54,7 @@ ENV PATH=$HIVE_HOME/sbin:$HIVE_HOME/bin:$PATH
 
 RUN pip install pip && \
     pip install --no-cache-dir \
+    pyspark==3.4.4 \
     pandas \
     findspark
 
